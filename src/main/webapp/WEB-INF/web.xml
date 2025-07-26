@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>SubmitFeedback</servlet-name>
+        <servlet-class>com.feedback.SubmitFeedbackServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SubmitFeedback</servlet-name>
+        <url-pattern>/SubmitFeedback</url-pattern>
+    </servlet-mapping>
+</web-app>
